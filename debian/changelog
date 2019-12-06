@@ -1,3 +1,13 @@
+gooroom-guide (0.2.5+grm1u1) unstable; urgency=medium
+
+  [ HaeRyong Jeong ]
+  * [58ec7cd7] Modified copyright and Removed font style in html files
+  * [3c288dc6] Updated it copyright
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 06 Dec 2019 12:14:28 +0900
+
 gooroom-guide (0.2.4+grm1u1) unstable; urgency=medium
 
   [ HaeRyong Jeong ]
