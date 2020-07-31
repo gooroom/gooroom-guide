@@ -1,3 +1,12 @@
+gooroom-guide (0.3.8+grm2u1) unstable; urgency=medium
+
+  [ HaeRyong Jeong ]
+  * [3c56285c] Updated copyright
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 31 Jul 2020 11:04:03 +0900
+
 gooroom-guide (0.3.7+grm2u1) unstable; urgency=medium
 
   [ Haeryong Jeong ]
