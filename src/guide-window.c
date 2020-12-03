@@ -197,7 +197,7 @@ guide_window_webview_load_changed (WebKitWebView *web_view,
 static void
 clear_tocs (gchar **item)
 {
-  g_free (item);
+  g_strfreev (item);
 }
 
 gchar*
@@ -206,6 +206,7 @@ get_language ()
   gchar *locale = NULL;
   gchar *result = NULL;
   const gchar **split = NULL;
+  gchar *result = NULL;
   const g_autofree gchar *lang = NULL;
 
   locale = setlocale (LC_MESSAGES, NULL);

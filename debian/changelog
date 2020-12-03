@@ -1,26 +1,39 @@
-gooroom-guide (0.3.7+grm2u1+han2u1) unstable; urgency=medium
+gooroom-guide (0.3.8+grm2u1) unstable; urgency=medium
+
+  [ HaeRyong Jeong ]
+  * [3c56285c] Updated copyright
+
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Fri, 31 Jul 2020 11:04:03 +0900
+
+gooroom-guide (0.3.7+grm2u1) unstable; urgency=medium
 
   [ Haeryong Jeong ]
-  * [721969cf] Fixed window frame when 800x600 size
+  * [e71751ca] Fixed window frame when 800x600 size
 
- -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 14 Jul 2020 15:38:57 +0900
+  [ Gooroom Autobuilder ]
 
-gooroom-guide (0.3.6+grm2u1+han2u1) unstable; urgency=medium
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 14 Jul 2020 15:34:08 +0900
+
+gooroom-guide (0.3.6+grm2u1) unstable; urgency=medium
 
   [ Haeryong Jeong ]
-  * [bbf4fd5d] Removed english contents and disabled locale language func
+  * [2b8268d4] Fixed contents and code refactoring
 
- -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 08 Jul 2020 20:21:05 +0900
+  [ Gooroom Autobuilder ]
 
-gooroom-guide (0.3.5+grm2u1+han2u1) unstable; urgency=medium
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Wed, 08 Jul 2020 20:16:19 +0900
+
+gooroom-guide (0.3.5+grm2u1) unstable; urgency=medium
 
   [ Jeong HaeRyong ]
-  * [dff4634a] Hancom gooroom-guide init
-  * [ed14273b] 1. Fixed autostart error 2. Change Contents and UI
-  * [0a0facbc] Change BI image and content image
-  * [31e2c1b3] [Bug:2372] Fixed context menu on titlebar
+  * [f5aa5247] Fixed context menu on titlebar
+  * [adb55f45] Fixed autostart error
 
- -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 07 Jul 2020 13:00:31 +0900
+  [ Gooroom Autobuilder ]
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Tue, 07 Jul 2020 12:57:15 +0900
 
 gooroom-guide (0.3.4+grm2u1) unstable; urgency=medium
 

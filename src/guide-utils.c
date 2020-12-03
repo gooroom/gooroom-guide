@@ -7,7 +7,7 @@
 gchar *
 get_norun_file_path ()
 {
-  g_autofree gchar *gooroom_dir;
+  g_autofree const gchar *gooroom_dir;
   g_autofree gchar *guide_dir;
 
   gooroom_dir = g_strdup_printf ("%s/.config/gooroom", g_get_home_dir());//(dir, "./config", "/gooroom");
