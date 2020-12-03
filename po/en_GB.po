@@ -25,16 +25,16 @@ msgid "Next >"
 msgstr "Next >"
 
 #: gooroom-guide.desktop.in.in:5
-msgid "Describes the features of the Hancom Gooroom platform"
-msgstr "Describes the features of the Hancom Gooroom platform"
+msgid "Describes the features of the SecuNote platform"
+msgstr "Describes the features of the SecuNote platform"
 
 #: gooroom-guide.desktop.in.in:4 guide.ui:30
-msgid "Hancom Gooroom Guide"
-msgstr "Hancom Gooroom Guide"
+msgid "SecuNote Guide"
+msgstr "SecuNote Guide"
 
 #: guide.ui:34
-msgid "Hancom Gooroom Quick Guide"
-msgstr "Hancom Gooroom Quick Guide"
+msgid "SecuNote Quick Guide"
+msgstr "SecuNote Quick Guide"
 
 #: guide.ui:209
 msgid "Close"

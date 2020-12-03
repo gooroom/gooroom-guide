@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=0.1
-Name=Hancom Gooroom Guide
+Name=SecuNote Guide
 Encoding=UTF-8
 Exec=gooroom-guide autostart
 Icon=gooroom-guide

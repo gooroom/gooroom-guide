@@ -197,7 +197,7 @@ guide_window_webview_load_changed (WebKitWebView *web_view,
 static void
 clear_tocs (gchar **item)
 {
-  g_strfreev (item);
+  g_free (item);
 }
 
 gchar*
@@ -206,7 +206,6 @@ get_language ()
   gchar *locale = NULL;
   gchar *result = NULL;
   const gchar **split = NULL;
-  gchar *result = NULL;
   const g_autofree gchar *lang = NULL;
 
   locale = setlocale (LC_MESSAGES, NULL);
@@ -462,7 +461,7 @@ guide_window_new (GtkApplication *app)
   return g_object_new (GUIDE_WINDOW_TYPE,
                        "application", app,
                        "resizable", FALSE,
-                       "title", _("Gooroom Guide"),
+                       "title", _("SecuNote Guide"),
                        "icon-name", "gooroom-guide",
                        "window-position", GTK_WIN_POS_CENTER,
                        "show-menubar", FALSE,

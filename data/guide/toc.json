@@ -1,14 +1,13 @@
 {
     "paths":[
         "/intro.html",
-        "/information.html",
-        "/desktop.html",
-        "/systemtray.html",
-        "/window.html",
-        "/notification.html",
-        "/browser.html",
-        "/basicapps.html",
-        "/security.html",
+        "/internal_environment.html",
+        "/internal_network.html",
+        "/internal_login.html",
+        "/internal_vm.html",
+        "/external_environment.html",
+        "/external_network.html",
+        "/external_login.html",
         "/finish.html"
     ]
 }
