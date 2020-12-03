@@ -1,3 +1,29 @@
+gooroom-guide (0.3.8+grm2u1+kepco01) unstable; urgency=medium
+
+  [ Jeong HaeRyong ]
+  * [dff4634a] Hancom gooroom-guide init
+  * [ed14273b] 1. Fixed autostart error 2. Change Contents and UI
+
+  [ HaeRyongJeong ]
+  * [0a0facbc] Change BI image and content image
+
+  [ HAERYONG JEONG ]
+  * [31e2c1b3] [Bug:2372] Fixed context menu on titlebar
+
+  [ Jenkins User ]
+  * [39c2dbaf] Version 0.3.5+grm2u1+han2u1 released
+  * [35234f9c] Version 0.3.6+grm2u1+han2u1 released
+  * [e84da01b] Version 0.3.7+grm2u1+han2u1 released
+
+  [ Haeryong Jeong ]
+  * [bbf4fd5d] Removed english contents and disabled locale language func
+  * [721969cf] Fixed window frame when 800x600 size
+
+  [ boyeon.choi ]
+  * [323095c4] Guide for kepco
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 03 Dec 2020 11:27:08 +0900
+
 gooroom-guide (0.3.8+grm2u1) unstable; urgency=medium
 
   [ HaeRyong Jeong ]
