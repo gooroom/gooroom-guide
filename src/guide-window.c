@@ -127,6 +127,32 @@ load_image (int index, GuideWindow *self)
 }
 
 static void
+open_help (GtkAccelGroup *accel,
+           GObject *acceleratoable,
+           guint keyval,
+           GdkModifierType modifier,
+           gpointer user_data)
+{
+  gtk_show_uri_on_window (GTK_WINDOW(user_data), "help:gooroom-guide",
+                          gtk_get_current_event_time (),NULL);
+}
+
+static void
+guide_window_accel_init(GtkWindow *window, gpointer uer_data)
+{
+  GtkAccelGroup *accel_group;
+  guint accelerator_key;
+  GdkModifierType accelerator_mod;
+  GClosure *closure;
+
+  accel_group = gtk_accel_group_new();
+  gtk_accelerator_parse ( "F1", &accelerator_key, &accelerator_mod);
+  closure = g_cclosure_new_object (G_CALLBACK (open_help),G_OBJECT(window));
+  gtk_accel_group_connect (accel_group, accelerator_key,accelerator_mod, GTK_ACCEL_VISIBLE, closure);
+  gtk_window_add_accel_group (window, accel_group);
+}
+
+static void
 guide_window_event_box_button_press_cb(GuideWindow *self, GtkEventBox *box)
 {
   if (self->index == self->total+1)
@@ -415,6 +441,8 @@ guide_window_init (GuideWindow *self)
   gtk_style_context_add_provider_for_screen (gdk_screen_get_default (),
                                   provider,
                                   GTK_STYLE_PROVIDER_PRIORITY_APPLICATION);
+
+  guide_window_accel_init (self, NULL);
 
   g_signal_connect_swapped (self->event_box, "button-press-event",
 							(GCallback)guide_window_event_box_button_press_cb, self);
