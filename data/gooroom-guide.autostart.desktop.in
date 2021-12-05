@@ -1,7 +1,6 @@
 [Desktop Entry]
-Version=0.1
+Version=3.0
 Name=Gooroom Guide
-Comment=Describes the features of the Gooroom platform
 Encoding=UTF-8
 Exec=gooroom-guide autostart
 Icon=gooroom-guide
@@ -9,3 +8,4 @@ Terminal=false
 Type=Application
 Categories=Utility;
 StartupNotify=true
+AutostartCondition=unless-exists /var/tmp/gis/

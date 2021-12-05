@@ -1,0 +1,6 @@
+
+#!/bin/bash
+
+rm /etc/xdg/autostart/gooroom-guide.desktop.in
+echo "gooroom-guide.desktop.in is removed"
+exit 0;

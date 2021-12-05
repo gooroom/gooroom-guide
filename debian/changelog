@@ -1,3 +1,15 @@
+gooroom-guide (0.5.0+grm3u1) unstable; urgency=medium
+
+  [ jongkyung.woo ]
+  * [f646ce8c] Released gooroom-3.0
+
+  [ boyeon.choi ]
+  * [117b078c] Gooroom3.0 Initialization
+  * [1bb3f6b5] Added a scritp to remove gooroom-guide.desktop.in located in /etc/xdg/autostart/
+  * [03cd795e] Removed etc directory
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Sun, 05 Dec 2021 14:22:00 +0900
+
 gooroom-guide (0.3.8+grm2u1) unstable; urgency=medium
 
   [ HaeRyong Jeong ]

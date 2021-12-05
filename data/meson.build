@@ -1,5 +1,3 @@
-#subdir('etc')
-
 po_dir = join_paths (meson.source_root (), 'po')
 
 desktop_autostart = i18n.merge_file ('desktop-autostart',
@@ -16,6 +14,7 @@ desktop_file = i18n.merge_file(
   po_dir: po_dir,
   install: true,
   install_dir: join_paths(get_option('datadir'), 'applications')
+               
 )
 
 install_subdir(

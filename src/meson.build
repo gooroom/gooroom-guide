@@ -10,7 +10,8 @@ common_deps += [
 ]
 
 resources_data = files(
-  'guide.ui'
+  'data/guide-window.ui',
+  'data/guide-window.css'
 )
 
 sources = files(

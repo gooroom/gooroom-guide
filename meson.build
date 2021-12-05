@@ -45,7 +45,6 @@ common_deps = [
   glib_dep,
   dependency('gio-unix-2.0'),
   dependency('gtk+-3.0', version: '> 3.22.20'),
-  dependency('glib-2.0', version: '2.58.3')
 ]
 
 gnome = import('gnome')
