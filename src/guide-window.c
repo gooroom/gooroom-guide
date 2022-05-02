@@ -120,6 +120,10 @@ load_image (int index, GuideWindow *self)
 
   pixbuf = gdk_pixbuf_new_from_file (uri,error);
 
+  if (index == 0)
+	  gtk_stack_set_visible_child (GTK_STACK (self->bar_stack), self->start_bar);
+  
+
   if (pixbuf == NULL) {
       g_print ("Error loading file: #%d %s\n", error->code, error->message);
       g_error_free (error);
@@ -127,7 +131,8 @@ load_image (int index, GuideWindow *self)
   }
 
   gtk_image_set_from_pixbuf (self->image_frame,
-							 gdk_pixbuf_scale_simple (pixbuf, 890, 540, GDK_INTERP_NEAREST));
+		  gdk_pixbuf_scale_simple (pixbuf, 890, 540, GDK_INTERP_NEAREST));
+
   set_page_label(self);
   guide_window_present(self);
 }
