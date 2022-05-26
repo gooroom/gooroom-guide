@@ -1,3 +1,10 @@
+gooroom-guide (3.1.0+grm3u1) unstable; urgency=medium
+
+  [ boyeon.choi ]
+  * [b148246f] [Bug:4373] Fixed a status bar initialization fault
+
+ -- Gooroom Autobuilder <jenkins@gooroom.kr>  Thu, 26 May 2022 18:12:35 +0900
+
 gooroom-guide (0.5.0+grm3u1) unstable; urgency=medium
 
   [ jongkyung.woo ]
